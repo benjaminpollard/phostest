@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PhosGithubApp.iml" filepath="$PROJECT_DIR$/.idea/modules/PhosGithubApp.iml" group="PhosGithubApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="PhosGithubApp/app" />
+    </modules>
+  </component>
+</project>

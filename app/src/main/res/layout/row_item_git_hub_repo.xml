@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".views.MainActivity">
+
+    <TextView
+        android:id="@+id/row_item_git_hub_repo_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/row_item_git_hub_repo_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="8dp"
+        android:textColor="@color/labelColor" />
+
+    <TextView
+        android:id="@+id/row_item_git_hub_repo_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/row_item_git_hub_repo_name_label"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/row_item_git_hub_repo_name_hash_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/row_item_git_hub_repo_name_hash"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/row_item_git_hub_repo_name_label"
+        android:padding="8dp"
+        android:textColor="@color/labelColor" />
+
+    <TextView
+        android:id="@+id/row_item_git_hub_repo_name_hash"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:layout_constraintStart_toEndOf="@+id/row_item_git_hub_repo_name_hash_label"
+        app:layout_constraintTop_toBottomOf="@+id/row_item_git_hub_repo_name"
+        android:padding="8dp"
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/row_item_git_hub_repo_name_message_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/row_item_git_hub_repo_name_message"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/row_item_git_hub_repo_name_hash_label"
+        android:padding="8dp"
+        android:textColor="@color/labelColor" />
+
+    <TextView
+        android:id="@+id/row_item_git_hub_repo_name_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/row_item_git_hub_repo_name_message_label"
+        app:layout_constraintTop_toBottomOf="@+id/row_item_git_hub_repo_name_hash" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividerColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

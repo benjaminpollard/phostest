@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PhosGithubApp</string>
+    <string name="row_item_git_hub_repo_name">Name:</string>
+    <string name="row_item_git_hub_repo_name_hash">Commit Hash:</string>
+    <string name="row_item_git_hub_repo_name_message">Commit Message</string>
+    <string name="loading">Loading...</string>
+</resources>
